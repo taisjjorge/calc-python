@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+<body>
+    <div class="bg-dark p-5" style="height: 180vh">
+        <div class="container border p-4 bg-white">
+            <h1 class="display-4">Operações matemáticas simples</h1>
+            <hr>
+
+            <form action="" method="POST">
+                <input class="form-control my-3 w-25 p-3" type="number" placeholder="Digite um número..." name="valor1" />
+                <input class="form-control my-3 w-25 p-3" type="number" placeholder="Digite um número..." name="valor2" />
+                
+                <input type="radio" name="operacao" id="soma" value="soma" checked>
+                <label for="soma">Soma</label>
+
+                <input type="radio" name="operacao" id="subt" value="subt" >
+                <label for="subt">Subtrair</label>
+
+                <input type="radio" name="operacao" id="mult" value="mult">
+                <label for="mult">Multiplicar</label>
+
+                <input type="radio" name="operacao" id="divi" value="divi">
+                <label for="divi">Dividir</label>
+
+
+                <hr>
+                <div class="mt-4">
+                    <button class="btn btn-primary">Enviar</button>
+                    <button class="btn btn-danger" type="reset">Resetar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
